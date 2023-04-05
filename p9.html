@@ -21,12 +21,51 @@
 
         div p {
             color: pink;
+        } 
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+
+        li:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .active {
+            background-color: #4CAF50;
         }
 
     </style>
 </head>
 
 <body>
+
+    <ul>
+        <li class="active"><a href="./p2.html">Inicio</a></li>
+        <li><a href="./index.html">Blog</a></li>
+        <li><a href="./p9.html">Acerca de</a></li>
+    </ul>
+    <br>
+    <br>
     <img src="http://placekitten.com/200/300" alt="">
     <p>Gatos a la liberación munduial!</p>
     <div>
