@@ -22,12 +22,45 @@
             box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
             transform: rotate(20deg);
         }
+
+        .box:hover {
+            transform: scale(1.6, 1.6) rotate(20deg);
+        }
+
+        .box2 {
+            position: relative;
+            left: 50px;
+            top: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+            transform: rotate(-20deg);
+        }
+
+        .box2:hover {
+            transform: scale(1.6, 1.6) rotate(-20deg);
+        }
+
+
+        .text {
+            text-align: center;
+            padding:25px;
+            font-size: 30px;
+        }
+
     </style>
 
 </head>
 <body>
     <div class="box">
-        <p>Lalala</p>
+        <p class="text">分</p>
+    </div>
+    <div class="box2">
+        <p class="text">魚</p>
+    </div>
+    <div class="box">
+        <p class="text">鬼</p>
     </div>
 </body>
 </html>
